@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> Mojavesoft </title>
+<link rel="icon" type="image/x-icon" href="assets/favicon.jpg">
+<style>
+
+
+
+body {
+ text-align: center;
+ background-color: green;
+ color: black;
+ margin: auto;
+}
+
+a {
+ color : black;
+</style>
+</head>
+<body>
+<noscript>Please turn on JS. Thank you.</noscript>
+<h1>PlatformDT</h1>
+
+<b>In collaboration with Steel and Leaf (see below)</b></br></br>
+<p id="platform"></p></br>
+<img src="https://cdn11.bigcommerce.com/s-h62n383l3e/images/stencil/200x90/snl_logo_for_website_1633117037__48268.original.jpg" alt="Steel and Leaf" onclick="rickroll()">
+<script>
+function rickroll() {
+ location.assign("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+}
+
+document.getElementById("platform").innerHTML =  "This user is using a version of " + navigator.userAgentData["platform"] + "."
+</script>
+
+
+
+</body>
+</html>
